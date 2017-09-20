@@ -1,0 +1,11 @@
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\bin\Debug\门诊挂号系统.exe.config
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\bin\Debug\门诊挂号系统.exe
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\bin\Debug\门诊挂号系统.pdb
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.csprojResolveAssemblyReference.cache
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.frm_main.resources
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.Properties.Resources.resources
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.csproj.GenerateResource.Cache
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.csproj.CoreCompileInputs.cache
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.exe
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.pdb
+C:\Users\3150707035\Documents\Visual Studio 2017\Projects\门诊挂号系统\门诊挂号系统\obj\Debug\门诊挂号系统.frm_BaseInfoReg.resources
