@@ -3,6 +3,10 @@
 小组成员： [邱思奎](https://github.com/qskui1314
 )、[李靖](https://github.com/jl223vy)、崔灿  
 
+[Blog传送门](https://www.cnblogs.com/qq1353842241)  
+
+[Forum传送门](http://my.csdn.net/qsining)  
+
 First published: 2017/09/20
 
 ## 一、主要功能介绍
@@ -21,10 +25,6 @@ First published: 2017/09/20
 8. 数据和系统维护功能      
 
 ## 二、小组成员及分工
-
-[Blog](https://www.cnblogs.com/qq1353842241)  
-
-[Forum](http://my.csdn.net/qsining)  
 
 - 邱思奎：窗体设计，代码编写  
 
