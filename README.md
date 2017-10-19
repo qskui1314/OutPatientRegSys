@@ -1,45 +1,44 @@
 ## ChangeLog 2017.10.19
 
-   We reupload whole project files.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
+   We reupload whole project files this time.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
 
 ## ChangeLog 2017.10.17
 
-   本次完成了数据库部分，随部分窗体及相关文件一起上传。包括数据字典、数据流图、E-R图，部分图标文件上传到了icon文件夹，图片文件上传到了img文件夹。剩余部分仍在制作中。
+   We finished database this time,uploaded it with some forms.Including data dictionary, data flow graph, e-r diagram, some icon files are uploaded to icon folder, image files are uploaded to the img folder，etc. The rest is still in production.
 
+## ChangeLog 2017.9.20
 
-门诊挂号系统
+OutPatientRegSys
 ===================================
 
 ***
-## 一、主要功能介绍
 
-    门诊挂号是每个病人在医院的就医流程的第一步，一个高效的门诊挂号系统将大大增加医院工作效率，提高效益。    
+## One:Main function
 
-    我们的主要功能有:    
+   Outpatient registration is every patient in the first step of hospital medical treatment process, an efficient hospital outpatient registration system will greatly increase the work efficiency, improve business efficiency.   
 
->1.病人信息管理功能，  
->2.医疗卡管理功能，  
->3.预约管理功能，  
->4.挂号管理功能，  
->5.门诊排班功能，  
->6.查询功能，   
->7.统计报表快速生成功能，   
->8.数据和系统维护功能。      
+    This is our main functions lists:    
+
+>1.Patient information management function;  
+>2.Medical card management function;  
+>3.Appointment management function; 
+>4.Registration management function;
+>5.Outpatient scheduling;
+>6.Query function;   
+>7.Quick generation of statistical reports; 
+>8.Data and system maintenance.   
 
 ***
-## 二、小组成员及分工
+## Two:Team members and division of labor
 
-[我们的博客园主页](https://www.cnblogs.com/qq1353842241)  
+[Our blog home page](https://www.cnblogs.com/qq1353842241)  
 
-[我们的csdn主页](http://my.csdn.net/qsining)  
+[Our CSDN home page](http://my.csdn.net/qsining)
 
-小组成员：邱思奎，李靖，崔灿  
+Team members：qskui，Li jing，Cui Can
 
-邱思奎：窗体设计，代码编写  
+qskui: form design, code writing
 
-李靖：资料整理，代码编写  
+Li jing: data collation, code writing
 
-崔灿；数据库设计，数据录入  
-
-update_2017.9.20
-***
+Cui Can; Database design, data entry
