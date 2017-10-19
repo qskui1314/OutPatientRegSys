@@ -1,6 +1,6 @@
 ## ChangeLog 2017.10.19
 
-    We reupload whole project files.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
+   We reupload whole project files.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
 
 ## ChangeLog 2017.10.17
 
