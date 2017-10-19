@@ -1,44 +1,55 @@
-## ChangeLog 2017.10.19
+# Outpatient Registration System
 
-   We reupload whole project files this time.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
+## Change Logs
 
-## ChangeLog 2017.10.17
+#### 2017.10.19
 
-   We finished database this time,uploaded it with some forms.Including data dictionary, data flow graph, e-r diagram, some icon files are uploaded to icon folder, image files are uploaded to the img folder，etc. The rest is still in production.
+We reupload whole project files this time.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
 
-## ChangeLog 2017.9.20
+#### 2017.10.17
 
-OutPatientRegSys
-===================================
+We finished database this time,uploaded it with some forms.Including data dictionary, data flow graph, e-r diagram, some icon files are uploaded to icon folder, image files are uploaded to the img folder，etc. The rest is still in production.
 
-***
+#### 2017.9.20
 
-## One:Main function
+Project Started.
 
-   Outpatient registration is every patient in the first step of hospital medical treatment process, an efficient hospital outpatient registration system will greatly increase the work efficiency, improve business efficiency.   
 
-    This is our main functions lists:    
+-----
 
->1.Patient information management function;  
->2.Medical card management function;  
->3.Appointment management function; 
->4.Registration management function;
->5.Outpatient scheduling;
->6.Query function;   
->7.Quick generation of statistical reports; 
->8.Data and system maintenance.   
+## Overview
 
-***
-## Two:Team members and division of labor
+   The Outpatient Registration System is an efficient patient management system that eases capturing of pertinent information of the patients. The patient administration functionalities of the hospital can be automated to provide proficient patient care. The scheduling of patient and physician appointments can be done from this module. The details about schedule of a physician, slots available in his schedule, scheduled slots, blocked slots, tracking of patients and their visits, scheduling appointments for unregistered patients and emergency patients can be viewed effortlessly. Scheduling, rescheduling and manipulating of appointments can be done easily from our patient registration module. Managing of patient records can also be handled effortlessly.
+   
+- Patient Registration Details/Management
+- Patient Information Management
+- Medical Card Management
+- Appointment Scheduling (Patient/Doctor wise)
+- Doctor's Schedule Summary
+- Doctors Daily Schedule List
+- Medical Record Movements
+- Data and System Maintenance
 
-[Our blog home page](https://www.cnblogs.com/qq1353842241)  
+Various statistical reports can be generated for the top - management to view and draw inference to make the services offered better.
 
-[Our CSDN home page](http://my.csdn.net/qsining)
+## Salient Features:
 
-Team members：qskui，Li jing，Cui Can
+- Enable Normal Registration/Specific Registration
+- User definable parameters for Registration fields (Mandatory/Prompt if Missing/Track updates)
+- Unique patient identifier
+- Appointment Scheduling, Rescheduling, Cancellation, Wait Lists, Walk-in appointments
+- View all patients’ previous visitations to the hospital.
+- View Available Appointments, Booked Appointments, Visited patients list, No-show patients list
 
-qskui: form design, code writing
+## Group Members
+- [SiKui Qiu](https://github.com/qskui1314)：Form Design and programming
+- [Jing Li](https://github.com/jl223vy)：Data Collation and programming
+- Can Cui：Database Design and Data Entry
 
-Li jing: data collation, code writing
+## Links
 
-Cui Can; Database design, data entry
+- [Blog](https://www.cnblogs.com/qq1353842241)  
+
+- [Forum](http://my.csdn.net/qsining)
+
+-----
