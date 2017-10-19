@@ -50,4 +50,6 @@ Various statistical reports can be generated for the top - management to view an
 
 - [Forum](http://my.csdn.net/qsining)
 
+- Article translations are update on [segmentfault](https://segmentfault.com/u/jl223vy)
+
 -----
