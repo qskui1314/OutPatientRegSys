@@ -1,3 +1,12 @@
+## ChangeLog 2017.10.19
+
+    We reupload whole project files.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
+
+## ChangeLog 2017.10.17
+
+   本次完成了数据库部分，随部分窗体及相关文件一起上传。包括数据字典、数据流图、E-R图，部分图标文件上传到了icon文件夹，图片文件上传到了img文件夹。剩余部分仍在制作中。
+
+
 门诊挂号系统
 ===================================
 
@@ -34,7 +43,3 @@
 
 update_2017.9.20
 ***
-
-## ChangeLog 2017.10.17
-
-   本次完成了数据库部分，随部分窗体及相关文件一起上传。包括数据字典、数据流图、E-R图，部分图标文件上传到了icon文件夹，图片文件上传到了img文件夹。剩余部分仍在制作中。
