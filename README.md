@@ -2,6 +2,10 @@
 
 ## Change Logs
 
+#### 2017.10.20
+
+Complete database building and input operator data; Implement login and some main form functions; Complete the UML use case diagram to update the development documentation; Organize three folders: data, docs, SRC.
+
 #### 2017.10.19
 
 We reuploaded whole project files this time. Including .sln file and someother file updates. BTW, the development files is editing into one. we will upload it soon.
