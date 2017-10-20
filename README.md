@@ -39,8 +39,8 @@ Various statistical reports can be generated for the top - management to view an
 - View Available Appointments, Booked Appointments, Visited patients list, No-show patients list
 
 ## Group Members
-- [SiKui Qiu](https://github.com/qskui1314)：Form Design and programming
-- [Jing Li](https://github.com/jl223vy)：Data Collation and programming
+- [SiKui Qiu](https://github.com/qskui1314)：Form Design and Programming
+- [Jing Li](https://github.com/jl223vy)：Data Collation and Programming
 - Can Cui：Database Design and Data Entry
 
 ## Links
