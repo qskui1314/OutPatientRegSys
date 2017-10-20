@@ -4,16 +4,15 @@
 
 #### 2017.10.19
 
-We reupload whole project files this time.Including .sln file and someother file updates.BTW,the development files is editing into one.we will upload it soon.
+We reuploaded whole project files this time. Including .sln file and someother file updates. BTW, the development files is editing into one. we will upload it soon.
 
 #### 2017.10.17
 
-We finished database this time,uploaded it with some forms.Including data dictionary, data flow graph, e-r diagram, some icon files are uploaded to icon folder, image files are uploaded to the img folder，etc. The rest is still in production.
+We finished database this time, uploaded it with some forms.Including data dictionary, data flow graph, E-R diagram, some icon files are uploaded to icon folder, image files are uploaded to the img folder, etc. The rest are still in production.
 
 #### 2017.9.20
 
 Project Started.
-
 
 ## Overview
 
@@ -40,8 +39,8 @@ Various statistical reports can be generated for the top - management to view an
 - View Available Appointments, Booked Appointments, Visited patients list, No-show patients list
 
 ## Group Members
-- [SiKui Qiu](https://github.com/qskui1314)：Form Design and programming
-- [Jing Li](https://github.com/jl223vy)：Data Collation and programming
+- [Sikui Qiu](https://github.com/qskui1314)：Form Design and Programming
+- [Jing Li](https://github.com/jl223vy)：Data Collation and Programming
 - Can Cui：Database Design and Data Entry
 
 ## Links
@@ -49,5 +48,7 @@ Various statistical reports can be generated for the top - management to view an
 - [Blog](https://www.cnblogs.com/qq1353842241)  
 
 - [Forum](http://my.csdn.net/qsining)
+
+- Article translations are update on [segmentfault](https://segmentfault.com/u/jl223vy)
 
 -----
