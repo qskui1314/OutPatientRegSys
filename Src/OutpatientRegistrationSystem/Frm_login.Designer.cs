@@ -43,6 +43,7 @@
             // 
             this.texbox_psw.Location = new System.Drawing.Point(292, 366);
             this.texbox_psw.Name = "texbox_psw";
+            this.texbox_psw.PasswordChar = '*';
             this.texbox_psw.Size = new System.Drawing.Size(144, 21);
             this.texbox_psw.TabIndex = 20;
             // 
