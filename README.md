@@ -2,6 +2,10 @@
 
 ## Change Logs
 
+#### 2017.10.23
+
+Fixed bugs.
+
 #### 2017.10.20
 
 Complete database building and input operator data; Implement login and some main form functions; Complete the UML use case diagram to update the development documentation; Organize three folders: data, docs, SRC.
