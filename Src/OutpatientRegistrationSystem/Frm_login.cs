@@ -33,13 +33,14 @@ namespace OutpatientRegistrationSystem
             conn.Close();
             if (rowCount == 1)
             {
-                MessageBox.Show("登录成功！");
+                MessageBox.Show("登录成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.DialogResult = DialogResult.OK;
+                userhelp.operater = this.texbox_userName.Text.Trim();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("用户名或密码错误，请重新输入！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("用户名或密码错误，请重新输入！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 this.texbox_psw.Focus();
                 this.texbox_psw.SelectAll();
             }
