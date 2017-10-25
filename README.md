@@ -2,9 +2,18 @@
 
 ## Change Logs
 
+#### 2017.10.25
+
+- 完善Frm_main窗体功能；
+- 增加Frm_patient窗体和Frm_appointment窗体。
+
 #### 2017.10.20
 
-Complete database building and input operator data; Implement login and some main form functions; Complete the UML use case diagram to update the development documentation; Organize three folders: data, docs, SRC.
+- 完成门诊挂号系统建库，插入操作员数据，上传建库脚本；
+- 实现操作员登录功能；
+- 完成UML用例图；
+- 整理完善开发文档；
+- 规范化上传文件，整理至Data，Src，Doc三个文件夹。
 
 #### 2017.10.19
 
