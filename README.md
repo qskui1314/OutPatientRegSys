@@ -1,32 +1,5 @@
 # Outpatient Registration System
 
-## Change Logs
-
-#### 2017.10.25
-
-- 完善Frm_main窗体功能；
-- 增加Frm_patient窗体和Frm_appointment窗体。
-
-#### 2017.10.20
-
-- 完成门诊挂号系统建库，插入操作员数据，上传建库脚本；
-- 实现操作员登录功能；
-- 完成UML用例图；
-- 整理完善开发文档；
-- 规范化上传文件，整理至Data，Src，Doc三个文件夹。
-
-#### 2017.10.19
-
-We reuploaded whole project files this time. Including .sln file and someother file updates. BTW, the development files is editing into one. we will upload it soon.
-
-#### 2017.10.17
-
-We finished database this time, uploaded it with some forms.Including data dictionary, data flow graph, E-R diagram, some icon files are uploaded to icon folder, image files are uploaded to the img folder, etc. The rest are still in production.
-
-#### 2017.9.20
-
-Project Started.
-
 ## Overview
 
    The Outpatient Registration System is an efficient patient management system that eases capturing of pertinent information of the patients. The patient administration functionalities of the hospital can be automated to provide proficient patient care. The scheduling of patient and physician appointments can be done from this module. The details about schedule of a physician, slots available in his schedule, scheduled slots, blocked slots, tracking of patients and their visits, scheduling appointments for unregistered patients and emergency patients can be viewed effortlessly. Scheduling, rescheduling and manipulating of appointments can be done easily from our patient registration module. Managing of patient records can also be handled effortlessly.
@@ -50,6 +23,10 @@ Various statistical reports can be generated for the top - management to view an
 - Appointment Scheduling, Rescheduling, Cancellation, Wait Lists, Walk-in appointments
 - View all patients’ previous visitations to the hospital.
 - View Available Appointments, Booked Appointments, Visited patients list, No-show patients list
+
+## Change Logs
+
+[See Here](https://github.com/jl223vy/OutpatientRegSys/blob/master/Docs/Change%20Logs.md)
 
 ## Group Members
 - [Sikui Qiu](https://github.com/qskui1314)：Form Design and Programming
