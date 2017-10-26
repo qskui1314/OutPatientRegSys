@@ -1,4 +1,4 @@
-﻿# Change Logs
+# Change Logs
 
 #### 2017.10.25
 
@@ -15,15 +15,16 @@
 
 #### 2017.10.19
 
-We reuploaded whole project files this time. Including .sln file and someother file updates. BTW, the development files is editing into one. we will upload it soon.
+- 上传项目文件。
 
 #### 2017.10.17
 
-We finished database this time, uploaded it with some forms.Including data dictionary, data flow graph, E-R diagram, some icon files are uploaded to icon folder, image files are uploaded to the img folder, etc. The rest are still in production.
+- 完成数据库设计；
+- 上传数据字典，数据流图，ER图和一些icon，image文件。
 
 #### 2017.9.20
 
-Project Started.
+- 项目开始。
 
 
 
