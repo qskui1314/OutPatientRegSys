@@ -1,9 +1,16 @@
 # Change Logs
 
+#### 2017.10.26
+
+- 完善Frm_main窗体功能；
+- 增加Frm_needpay窗体和Frm_payment窗体；
+- 修改建库脚本，增加*社保卡表*。
+
 #### 2017.10.25
 
 - 完善Frm_main窗体功能；
-- 增加Frm_patient窗体和Frm_appointment窗体。
+- 增加Frm_patient窗体和Frm_appointment窗体；
+- 增加userhelp.cs。
 
 #### 2017.10.20
 
@@ -27,5 +34,5 @@
 - 项目开始。
 
 
-
+-----
 
