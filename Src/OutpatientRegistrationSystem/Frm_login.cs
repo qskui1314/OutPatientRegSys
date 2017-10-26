@@ -35,7 +35,7 @@ namespace OutpatientRegistrationSystem
             {
                 MessageBox.Show("登录成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.DialogResult = DialogResult.OK;
-                userhelp.operater = this.texbox_userName.Text.Trim();
+                userhelp.operaterNo = this.texbox_userName.Text.Trim();
                 this.Close();
             }
             else

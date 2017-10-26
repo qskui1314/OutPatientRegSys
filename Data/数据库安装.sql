@@ -38,24 +38,6 @@ INSERT tb_operator
     ('3150707035','邱思奎',HASHBYTES('MD5','7035'))
     ,('3150707012','李靖',HASHBYTES('MD5','7012'))
     ,('3150707046','崔灿',HASHBYTES('MD5','7046'));
-----医疗卡表；
-CREATE TABLE tb_card
-    (NO
-        CHAR(10)
-        NOT NULL
-        PRIMARY KEY
-    ,balance
-        money
-        NOT NULL
-        DEFAULT '0.00'
-    ,enMoney
-        money
-    ,coMoney
-        money
-    ,enTime
-        date
-    ,coTime
-        date);
 ----患者表；
 CREATE TABLE tb_patient
     (No
@@ -74,23 +56,74 @@ CREATE TABLE tb_patient
     ,birthday
         date
         NOT NULL
-    ,birthProv
-        varchar(25)
-    ,birthCity
-        varchar(25)
     ,nationality
         varchar(25)
-    ,socialNo
-        CHAR(18)
+    ,nation
+        VARCHAR(15)
+    ,email
+        CHAR(45)
     ,tel
         CHAR(15)
         NOT NULL
-    ,cardNo
-        CHAR(10)
-        FOREIGN KEY REFERENCES tb_card(NO)
     ,Address
-        varchar(25)
-        NOT NULL);
+        varchar(45)
+    ,fistMan1
+        VARCHAR(25)
+    ,firstManTel1
+        CHAR(15)
+    ,fistMan2
+        VARCHAR(25)
+    ,firstManTel2
+        CHAR(15)
+    ,allergyHistory
+        VARCHAR(125)
+    ,operationHistory
+        VARCHAR(125));
+----医疗卡表；
+CREATE TABLE tb_card
+    (NO
+        CHAR(10)
+        NOT NULL
+        PRIMARY KEY
+    ,patientNo
+        CHAR(10)
+        FOREIGN KEY REFERENCES tb_patient(No)
+    ,balance
+        money
+        NOT NULL
+        DEFAULT '0.00'
+    ,creditLimit
+        MONEY
+    ,enMoney
+        money
+    ,coMoney
+        money
+    ,enTime
+        date
+    ,coTime
+        date);
+----社保卡表；
+CREATE TABLE tb_socialCard
+    (NO
+        CHAR(18)
+        PRIMARY KEY
+    ,patientNo
+        CHAR(10)
+        FOREIGN KEY REFERENCES tb_patient(No)
+    ,balance
+        money
+        NOT NULL
+        DEFAULT '0.00'
+    ,creditLimit
+        MONEY
+    ,enMoney
+        money
+    ,coMoney
+        money
+    ,enTime
+        date
+    ,coTime
+        date);
 ----科室表；
 CREATE TABLE tb_dept
     (NO
