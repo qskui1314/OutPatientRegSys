@@ -21,7 +21,7 @@ Various statistical reports can be generated for the top - management to view an
 - User definable parameters for Registration fields (Mandatory/Prompt if Missing/Track updates)
 - Unique patient identifier
 - Appointment Scheduling, Rescheduling, Cancellation, Wait Lists, Walk-in appointments
-- View all patients’ previous visitations to the hospital.
+- View all patients’ previous visitations to the hospital
 - View Available Appointments, Booked Appointments, Visited patients list, No-show patients list
 
 ## Change Logs
