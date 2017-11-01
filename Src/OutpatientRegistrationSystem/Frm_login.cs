@@ -16,6 +16,7 @@ namespace OutpatientRegistrationSystem
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            texbox_userName.Focus();
         }
 
         private void btn_logIn_Click(object sender, EventArgs e)

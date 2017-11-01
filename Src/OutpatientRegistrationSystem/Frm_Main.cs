@@ -15,6 +15,7 @@ namespace OutpatientRegistrationSystem
         public Frm_Main()
         {
             InitializeComponent();
+            treeView1.NodeMouseClick += treeView1_NodeMouseClick;
         }
 
         private void 退出系统ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -84,7 +85,6 @@ namespace OutpatientRegistrationSystem
 
       private void treeView1_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-
             switch (e.Node.Text)
             {
                 case "患者登记":
@@ -212,6 +212,11 @@ namespace OutpatientRegistrationSystem
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             this.toolStripStatusLabel_curTime.Text = "系统当前时间：" + DateTime.Now.ToString("yyyy年MM月dd日 hh:mm");
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
         }
 
     }

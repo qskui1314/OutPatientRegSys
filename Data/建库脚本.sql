@@ -40,7 +40,7 @@ INSERT tb_operator
     ,('3150707046','崔灿',HASHBYTES('MD5','7046'));
 ----患者表；
 CREATE TABLE tb_patient
-    (No
+    ([No]
         CHAR(10)
         NOT NULL
         PRIMARY KEY
@@ -65,7 +65,7 @@ CREATE TABLE tb_patient
     ,tel
         CHAR(15)
         NOT NULL
-    ,Address
+    ,[Address]
         varchar(45)
     ,fistMan1
         VARCHAR(25)
@@ -75,18 +75,18 @@ CREATE TABLE tb_patient
         VARCHAR(25)
     ,firstManTel2
         CHAR(15)
-    ,allergyHistory
-        VARCHAR(125)
-    ,operationHistory
-        VARCHAR(125));
-----医疗卡表；
-CREATE TABLE tb_card
-    (NO
-        CHAR(10)
+    ,regDate
+        DATE
         NOT NULL
-        PRIMARY KEY
-    ,patientNo
+    ,allergyHistory
+        VARCHAR(255)
+    ,operationHistory
+        VARCHAR(255));
+----就诊卡表；
+CREATE TABLE tb_card
+    (patientNo
         CHAR(10)
+        PRIMARY KEY
         FOREIGN KEY REFERENCES tb_patient(No)
     ,balance
         money
@@ -104,11 +104,9 @@ CREATE TABLE tb_card
         date);
 ----社保卡表；
 CREATE TABLE tb_socialCard
-    (NO
-        CHAR(18)
-        PRIMARY KEY
-    ,patientNo
+    (patientNo
         CHAR(10)
+        PRIMARY KEY
         FOREIGN KEY REFERENCES tb_patient(No)
     ,balance
         money
