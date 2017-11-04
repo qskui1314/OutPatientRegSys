@@ -9,14 +9,24 @@ using System.Windows.Forms;
 
 namespace OutpatientRegistrationSystem
 {
-    public partial class Frm_infoReg : Form
+    public partial class guahaodengji : Form
     {
-        public Frm_infoReg()
+        public guahaodengji()
         {
             InitializeComponent();
         }
 
-        private void Frm_infoReg_Load(object sender, EventArgs e)
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb_bingli_CheckedChanged(object sender, EventArgs e)
         {
 
         }

@@ -18,7 +18,7 @@ namespace OutpatientRegistrationSystem
             Frm_login login = new Frm_login();
             if ( login.ShowDialog()==DialogResult.OK)
             {
-                Application.Run(new Frm_Main());
+                Application.Run(new Frm_main());
             }
         }
     }

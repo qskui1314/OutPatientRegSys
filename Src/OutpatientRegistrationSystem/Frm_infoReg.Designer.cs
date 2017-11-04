@@ -415,6 +415,7 @@
             this.Controls.Add(this.gb_BaseInfo);
             this.Name = "Frm_infoReg";
             this.Text = "基本信息登记";
+            this.Load += new System.EventHandler(this.Frm_infoReg_Load);
             this.gb_pingzheng.ResumeLayout(false);
             this.gb_pingzheng.PerformLayout();
             this.gb_BaseInfo.ResumeLayout(false);

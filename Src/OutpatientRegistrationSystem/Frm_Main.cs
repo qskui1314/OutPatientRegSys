@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace OutpatientRegistrationSystem
 {
-    public partial class Frm_Main : Form
+    public partial class Frm_main : Form
     {
-        public Frm_Main()
+        public Frm_main()
         {
             InitializeComponent();
         }
@@ -24,6 +24,5 @@ namespace OutpatientRegistrationSystem
                 Application.Exit();
             }
         }
-
     }
 }
