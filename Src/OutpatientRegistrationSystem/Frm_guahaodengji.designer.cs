@@ -511,7 +511,7 @@
             this.Controls.Add(this.gb_patientInfo);
             this.Name = "Frm_guahaodengji";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "guahaodengji";
+            this.Text = "挂号登记";
             this.gb_patientInfo.ResumeLayout(false);
             this.gb_patientInfo.PerformLayout();
             this.gb_pingzheng.ResumeLayout(false);
