@@ -116,7 +116,9 @@
             this.Controls.Add(this.lab_userName);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Frm_login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "用户登录";
+            this.Load += new System.EventHandler(this.Frm_login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

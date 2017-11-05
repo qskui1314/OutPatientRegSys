@@ -76,6 +76,7 @@
             this.btn_exit.TabIndex = 7;
             this.btn_exit.Text = "退出";
             this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // btn_ok
             // 
@@ -414,6 +415,7 @@
             this.Controls.Add(this.gb_pingzheng);
             this.Controls.Add(this.gb_BaseInfo);
             this.Name = "Frm_infoReg";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "基本信息登记";
             this.Load += new System.EventHandler(this.Frm_infoReg_Load);
             this.gb_pingzheng.ResumeLayout(false);

@@ -9,11 +9,12 @@ using System.Windows.Forms;
 
 namespace OutpatientRegistrationSystem
 {
-    public partial class guahaodengji : Form
+    public partial class Frm_guahaodengji : Form
     {
-        public guahaodengji()
+        public Frm_guahaodengji()
         {
             InitializeComponent();
+            this.ControlBox = false;
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -29,6 +30,12 @@ namespace OutpatientRegistrationSystem
         private void rb_bingli_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void bt_tuichu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

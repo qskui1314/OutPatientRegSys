@@ -30,283 +30,306 @@
         {
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.日常工作ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.基本信息登记ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.特殊登记ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.特殊挂号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.点名专家挂号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.外宾挂号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.免挂号费挂号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.免费挂号ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_日常工作 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_基本信息登记 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_挂号登记 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_特殊挂号 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_点名专家挂号 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_外宾挂号 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_免挂号费挂号 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_免费挂号 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.医保凭证修改ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.基本信息维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.充值卡维护ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.财务ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.操作员结账ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.全班操作员结账ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.挂号结账单统计ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.挂号查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.组合查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.凭证查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_医保凭证修改 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_基本信息维护 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_充值卡维护 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_财务 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_操作员结账 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_全班操作员结账 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_挂号结账单统计 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_查询 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_挂号查询 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_组合查询 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_凭证查询 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.病人信息查询ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.挂号动态图表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.报表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.挂号报表ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.发票管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.科室专家排班ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.挂号联动定义ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.高级专家设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.退出系统ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_病人信息查询 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_挂号动态图表 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_报表 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_挂号外挂报表 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_设置 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_发票管理 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_科室专家排班 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_挂号联动定义 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_高级专家定义 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_退出系统 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.关于开发者ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 437);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 439);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(698, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(699, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.日常工作ToolStripMenuItem,
-            this.财务ToolStripMenuItem,
-            this.查询ToolStripMenuItem,
-            this.报表ToolStripMenuItem,
-            this.设置ToolStripMenuItem,
-            this.退出系统ToolStripMenuItem});
+            this.menu_日常工作,
+            this.menu_财务,
+            this.menu_查询,
+            this.menu_报表,
+            this.menu_设置,
+            this.menu_退出系统});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(698, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(699, 25);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // 日常工作ToolStripMenuItem
+            // menu_日常工作
             // 
-            this.日常工作ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.基本信息登记ToolStripMenuItem,
-            this.特殊登记ToolStripMenuItem,
-            this.特殊挂号ToolStripMenuItem,
-            this.点名专家挂号ToolStripMenuItem,
-            this.外宾挂号ToolStripMenuItem,
-            this.免挂号费挂号ToolStripMenuItem,
-            this.免费挂号ToolStripMenuItem,
+            this.menu_日常工作.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu_基本信息登记,
+            this.menu_挂号登记,
+            this.menu_特殊挂号,
+            this.menu_点名专家挂号,
+            this.menu_外宾挂号,
+            this.menu_免挂号费挂号,
+            this.menu_免费挂号,
             this.toolStripSeparator2,
-            this.医保凭证修改ToolStripMenuItem,
-            this.基本信息维护ToolStripMenuItem,
-            this.充值卡维护ToolStripMenuItem});
-            this.日常工作ToolStripMenuItem.Name = "日常工作ToolStripMenuItem";
-            this.日常工作ToolStripMenuItem.Size = new System.Drawing.Size(75, 21);
-            this.日常工作ToolStripMenuItem.Text = "1日常工作";
+            this.menu_医保凭证修改,
+            this.menu_基本信息维护,
+            this.menu_充值卡维护});
+            this.menu_日常工作.Name = "menu_日常工作";
+            this.menu_日常工作.Size = new System.Drawing.Size(75, 21);
+            this.menu_日常工作.Text = "1日常工作";
             // 
-            // 基本信息登记ToolStripMenuItem
+            // menu_基本信息登记
             // 
-            this.基本信息登记ToolStripMenuItem.Name = "基本信息登记ToolStripMenuItem";
-            this.基本信息登记ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.基本信息登记ToolStripMenuItem.Text = "1基本信息登记";
+            this.menu_基本信息登记.Name = "menu_基本信息登记";
+            this.menu_基本信息登记.Size = new System.Drawing.Size(156, 22);
+            this.menu_基本信息登记.Text = "1基本信息登记";
+            this.menu_基本信息登记.Click += new System.EventHandler(this.menu_基本信息登记_Click);
             // 
-            // 特殊登记ToolStripMenuItem
+            // menu_挂号登记
             // 
-            this.特殊登记ToolStripMenuItem.Name = "特殊登记ToolStripMenuItem";
-            this.特殊登记ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.特殊登记ToolStripMenuItem.Text = "2特殊登记";
+            this.menu_挂号登记.Name = "menu_挂号登记";
+            this.menu_挂号登记.Size = new System.Drawing.Size(156, 22);
+            this.menu_挂号登记.Text = "2挂号登记";
+            this.menu_挂号登记.Click += new System.EventHandler(this.menu_挂号登记_Click);
             // 
-            // 特殊挂号ToolStripMenuItem
+            // menu_特殊挂号
             // 
-            this.特殊挂号ToolStripMenuItem.Name = "特殊挂号ToolStripMenuItem";
-            this.特殊挂号ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.特殊挂号ToolStripMenuItem.Text = "3特殊挂号";
+            this.menu_特殊挂号.Name = "menu_特殊挂号";
+            this.menu_特殊挂号.Size = new System.Drawing.Size(156, 22);
+            this.menu_特殊挂号.Text = "3特殊挂号";
+            this.menu_特殊挂号.Click += new System.EventHandler(this.menu_特殊挂号_Click);
             // 
-            // 点名专家挂号ToolStripMenuItem
+            // menu_点名专家挂号
             // 
-            this.点名专家挂号ToolStripMenuItem.Name = "点名专家挂号ToolStripMenuItem";
-            this.点名专家挂号ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.点名专家挂号ToolStripMenuItem.Text = "4点名专家挂号";
+            this.menu_点名专家挂号.Name = "menu_点名专家挂号";
+            this.menu_点名专家挂号.Size = new System.Drawing.Size(156, 22);
+            this.menu_点名专家挂号.Text = "4点名专家挂号";
+            this.menu_点名专家挂号.Click += new System.EventHandler(this.menu_点名专家挂号_Click);
             // 
-            // 外宾挂号ToolStripMenuItem
+            // menu_外宾挂号
             // 
-            this.外宾挂号ToolStripMenuItem.Name = "外宾挂号ToolStripMenuItem";
-            this.外宾挂号ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.外宾挂号ToolStripMenuItem.Text = "5外宾挂号";
+            this.menu_外宾挂号.Name = "menu_外宾挂号";
+            this.menu_外宾挂号.Size = new System.Drawing.Size(156, 22);
+            this.menu_外宾挂号.Text = "5外宾挂号";
+            this.menu_外宾挂号.Click += new System.EventHandler(this.menu_外宾挂号_Click);
             // 
-            // 免挂号费挂号ToolStripMenuItem
+            // menu_免挂号费挂号
             // 
-            this.免挂号费挂号ToolStripMenuItem.Name = "免挂号费挂号ToolStripMenuItem";
-            this.免挂号费挂号ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.免挂号费挂号ToolStripMenuItem.Text = "6免挂号费挂号";
+            this.menu_免挂号费挂号.Name = "menu_免挂号费挂号";
+            this.menu_免挂号费挂号.Size = new System.Drawing.Size(156, 22);
+            this.menu_免挂号费挂号.Text = "6免挂号费挂号";
+            this.menu_免挂号费挂号.Click += new System.EventHandler(this.menu_免挂号费挂号_Click);
             // 
-            // 免费挂号ToolStripMenuItem
+            // menu_免费挂号
             // 
-            this.免费挂号ToolStripMenuItem.Name = "免费挂号ToolStripMenuItem";
-            this.免费挂号ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.免费挂号ToolStripMenuItem.Text = "7免费挂号";
+            this.menu_免费挂号.Name = "menu_免费挂号";
+            this.menu_免费挂号.Size = new System.Drawing.Size(156, 22);
+            this.menu_免费挂号.Text = "7免费挂号";
+            this.menu_免费挂号.Click += new System.EventHandler(this.menu_免费挂号_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(153, 6);
             // 
-            // 医保凭证修改ToolStripMenuItem
+            // menu_医保凭证修改
             // 
-            this.医保凭证修改ToolStripMenuItem.Name = "医保凭证修改ToolStripMenuItem";
-            this.医保凭证修改ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.医保凭证修改ToolStripMenuItem.Text = "A医保凭证修改";
+            this.menu_医保凭证修改.Name = "menu_医保凭证修改";
+            this.menu_医保凭证修改.Size = new System.Drawing.Size(156, 22);
+            this.menu_医保凭证修改.Text = "A医保凭证修改";
             // 
-            // 基本信息维护ToolStripMenuItem
+            // menu_基本信息维护
             // 
-            this.基本信息维护ToolStripMenuItem.Name = "基本信息维护ToolStripMenuItem";
-            this.基本信息维护ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.基本信息维护ToolStripMenuItem.Text = "B基本信息维护";
+            this.menu_基本信息维护.Name = "menu_基本信息维护";
+            this.menu_基本信息维护.Size = new System.Drawing.Size(156, 22);
+            this.menu_基本信息维护.Text = "B基本信息维护";
             // 
-            // 充值卡维护ToolStripMenuItem
+            // menu_充值卡维护
             // 
-            this.充值卡维护ToolStripMenuItem.Name = "充值卡维护ToolStripMenuItem";
-            this.充值卡维护ToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.充值卡维护ToolStripMenuItem.Text = "C充值卡维护";
+            this.menu_充值卡维护.Name = "menu_充值卡维护";
+            this.menu_充值卡维护.Size = new System.Drawing.Size(156, 22);
+            this.menu_充值卡维护.Text = "C充值卡维护";
             // 
-            // 财务ToolStripMenuItem
+            // menu_财务
             // 
-            this.财务ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.操作员结账ToolStripMenuItem,
-            this.全班操作员结账ToolStripMenuItem,
-            this.挂号结账单统计ToolStripMenuItem});
-            this.财务ToolStripMenuItem.Name = "财务ToolStripMenuItem";
-            this.财务ToolStripMenuItem.Size = new System.Drawing.Size(51, 21);
-            this.财务ToolStripMenuItem.Text = "2财务";
+            this.menu_财务.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu_操作员结账,
+            this.menu_全班操作员结账,
+            this.menu_挂号结账单统计});
+            this.menu_财务.Name = "menu_财务";
+            this.menu_财务.Size = new System.Drawing.Size(51, 21);
+            this.menu_财务.Text = "2财务";
             // 
-            // 操作员结账ToolStripMenuItem
+            // menu_操作员结账
             // 
-            this.操作员结账ToolStripMenuItem.Name = "操作员结账ToolStripMenuItem";
-            this.操作员结账ToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.操作员结账ToolStripMenuItem.Text = "1操作员结账";
+            this.menu_操作员结账.Name = "menu_操作员结账";
+            this.menu_操作员结账.Size = new System.Drawing.Size(167, 22);
+            this.menu_操作员结账.Text = "1操作员结账";
             // 
-            // 全班操作员结账ToolStripMenuItem
+            // menu_全班操作员结账
             // 
-            this.全班操作员结账ToolStripMenuItem.Name = "全班操作员结账ToolStripMenuItem";
-            this.全班操作员结账ToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.全班操作员结账ToolStripMenuItem.Text = "2全班操作员结账";
+            this.menu_全班操作员结账.Name = "menu_全班操作员结账";
+            this.menu_全班操作员结账.Size = new System.Drawing.Size(167, 22);
+            this.menu_全班操作员结账.Text = "2全班操作员结账";
             // 
-            // 挂号结账单统计ToolStripMenuItem
+            // menu_挂号结账单统计
             // 
-            this.挂号结账单统计ToolStripMenuItem.Name = "挂号结账单统计ToolStripMenuItem";
-            this.挂号结账单统计ToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.挂号结账单统计ToolStripMenuItem.Text = "3挂号结账单统计";
+            this.menu_挂号结账单统计.Name = "menu_挂号结账单统计";
+            this.menu_挂号结账单统计.Size = new System.Drawing.Size(167, 22);
+            this.menu_挂号结账单统计.Text = "3挂号结账单统计";
             // 
-            // 查询ToolStripMenuItem
+            // menu_查询
             // 
-            this.查询ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.挂号查询ToolStripMenuItem,
-            this.组合查询ToolStripMenuItem,
-            this.凭证查询ToolStripMenuItem,
+            this.menu_查询.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu_挂号查询,
+            this.menu_组合查询,
+            this.menu_凭证查询,
             this.toolStripSeparator3,
-            this.病人信息查询ToolStripMenuItem,
-            this.挂号动态图表ToolStripMenuItem});
-            this.查询ToolStripMenuItem.Name = "查询ToolStripMenuItem";
-            this.查询ToolStripMenuItem.Size = new System.Drawing.Size(51, 21);
-            this.查询ToolStripMenuItem.Text = "3查询";
+            this.menu_病人信息查询,
+            this.menu_挂号动态图表});
+            this.menu_查询.Name = "menu_查询";
+            this.menu_查询.Size = new System.Drawing.Size(51, 21);
+            this.menu_查询.Text = "3查询";
             // 
-            // 挂号查询ToolStripMenuItem
+            // menu_挂号查询
             // 
-            this.挂号查询ToolStripMenuItem.Name = "挂号查询ToolStripMenuItem";
-            this.挂号查询ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.挂号查询ToolStripMenuItem.Text = "1挂号查询";
+            this.menu_挂号查询.Name = "menu_挂号查询";
+            this.menu_挂号查询.Size = new System.Drawing.Size(155, 22);
+            this.menu_挂号查询.Text = "1挂号查询";
             // 
-            // 组合查询ToolStripMenuItem
+            // menu_组合查询
             // 
-            this.组合查询ToolStripMenuItem.Name = "组合查询ToolStripMenuItem";
-            this.组合查询ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.组合查询ToolStripMenuItem.Text = "2组合查询";
+            this.menu_组合查询.Name = "menu_组合查询";
+            this.menu_组合查询.Size = new System.Drawing.Size(155, 22);
+            this.menu_组合查询.Text = "2组合查询";
             // 
-            // 凭证查询ToolStripMenuItem
+            // menu_凭证查询
             // 
-            this.凭证查询ToolStripMenuItem.Name = "凭证查询ToolStripMenuItem";
-            this.凭证查询ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.凭证查询ToolStripMenuItem.Text = "3凭证查询";
+            this.menu_凭证查询.Name = "menu_凭证查询";
+            this.menu_凭证查询.Size = new System.Drawing.Size(155, 22);
+            this.menu_凭证查询.Text = "3凭证查询";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(152, 6);
             // 
-            // 病人信息查询ToolStripMenuItem
+            // menu_病人信息查询
             // 
-            this.病人信息查询ToolStripMenuItem.Name = "病人信息查询ToolStripMenuItem";
-            this.病人信息查询ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.病人信息查询ToolStripMenuItem.Text = "4病人信息查询";
+            this.menu_病人信息查询.Name = "menu_病人信息查询";
+            this.menu_病人信息查询.Size = new System.Drawing.Size(155, 22);
+            this.menu_病人信息查询.Text = "4病人信息查询";
             // 
-            // 挂号动态图表ToolStripMenuItem
+            // menu_挂号动态图表
             // 
-            this.挂号动态图表ToolStripMenuItem.Name = "挂号动态图表ToolStripMenuItem";
-            this.挂号动态图表ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.挂号动态图表ToolStripMenuItem.Text = "5挂号动态图表";
+            this.menu_挂号动态图表.Name = "menu_挂号动态图表";
+            this.menu_挂号动态图表.Size = new System.Drawing.Size(155, 22);
+            this.menu_挂号动态图表.Text = "5挂号动态图表";
             // 
-            // 报表ToolStripMenuItem
+            // menu_报表
             // 
-            this.报表ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.挂号报表ToolStripMenuItem});
-            this.报表ToolStripMenuItem.Name = "报表ToolStripMenuItem";
-            this.报表ToolStripMenuItem.Size = new System.Drawing.Size(51, 21);
-            this.报表ToolStripMenuItem.Text = "4报表";
+            this.menu_报表.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu_挂号外挂报表});
+            this.menu_报表.Name = "menu_报表";
+            this.menu_报表.Size = new System.Drawing.Size(51, 21);
+            this.menu_报表.Text = "4报表";
             // 
-            // 挂号报表ToolStripMenuItem
+            // menu_挂号外挂报表
             // 
-            this.挂号报表ToolStripMenuItem.Name = "挂号报表ToolStripMenuItem";
-            this.挂号报表ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.挂号报表ToolStripMenuItem.Text = "1挂号外挂报表";
+            this.menu_挂号外挂报表.Name = "menu_挂号外挂报表";
+            this.menu_挂号外挂报表.Size = new System.Drawing.Size(155, 22);
+            this.menu_挂号外挂报表.Text = "1挂号外挂报表";
             // 
-            // 设置ToolStripMenuItem
+            // menu_设置
             // 
-            this.设置ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.发票管理ToolStripMenuItem,
-            this.科室专家排班ToolStripMenuItem,
-            this.挂号联动定义ToolStripMenuItem,
-            this.高级专家设置ToolStripMenuItem});
-            this.设置ToolStripMenuItem.Name = "设置ToolStripMenuItem";
-            this.设置ToolStripMenuItem.Size = new System.Drawing.Size(51, 21);
-            this.设置ToolStripMenuItem.Text = "5设置";
+            this.menu_设置.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menu_发票管理,
+            this.menu_科室专家排班,
+            this.menu_挂号联动定义,
+            this.menu_高级专家定义,
+            this.toolStripSeparator1,
+            this.关于开发者ToolStripMenuItem});
+            this.menu_设置.Name = "menu_设置";
+            this.menu_设置.Size = new System.Drawing.Size(51, 21);
+            this.menu_设置.Text = "5设置";
             // 
-            // 发票管理ToolStripMenuItem
+            // menu_发票管理
             // 
-            this.发票管理ToolStripMenuItem.Name = "发票管理ToolStripMenuItem";
-            this.发票管理ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.发票管理ToolStripMenuItem.Text = "1发票管理";
+            this.menu_发票管理.Name = "menu_发票管理";
+            this.menu_发票管理.Size = new System.Drawing.Size(155, 22);
+            this.menu_发票管理.Text = "1发票管理";
             // 
-            // 科室专家排班ToolStripMenuItem
+            // menu_科室专家排班
             // 
-            this.科室专家排班ToolStripMenuItem.Name = "科室专家排班ToolStripMenuItem";
-            this.科室专家排班ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.科室专家排班ToolStripMenuItem.Text = "2科室专家排班";
+            this.menu_科室专家排班.Name = "menu_科室专家排班";
+            this.menu_科室专家排班.Size = new System.Drawing.Size(155, 22);
+            this.menu_科室专家排班.Text = "2科室专家排班";
             // 
-            // 挂号联动定义ToolStripMenuItem
+            // menu_挂号联动定义
             // 
-            this.挂号联动定义ToolStripMenuItem.Name = "挂号联动定义ToolStripMenuItem";
-            this.挂号联动定义ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.挂号联动定义ToolStripMenuItem.Text = "3挂号联动定义";
+            this.menu_挂号联动定义.Name = "menu_挂号联动定义";
+            this.menu_挂号联动定义.Size = new System.Drawing.Size(155, 22);
+            this.menu_挂号联动定义.Text = "3挂号联动定义";
             // 
-            // 高级专家设置ToolStripMenuItem
+            // menu_高级专家定义
             // 
-            this.高级专家设置ToolStripMenuItem.Name = "高级专家设置ToolStripMenuItem";
-            this.高级专家设置ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.高级专家设置ToolStripMenuItem.Text = "4高级专家设置";
+            this.menu_高级专家定义.Name = "menu_高级专家定义";
+            this.menu_高级专家定义.Size = new System.Drawing.Size(155, 22);
+            this.menu_高级专家定义.Text = "4高级专家设置";
             // 
-            // 退出系统ToolStripMenuItem
+            // menu_退出系统
             // 
-            this.退出系统ToolStripMenuItem.Name = "退出系统ToolStripMenuItem";
-            this.退出系统ToolStripMenuItem.Size = new System.Drawing.Size(75, 21);
-            this.退出系统ToolStripMenuItem.Text = "E退出系统";
-            this.退出系统ToolStripMenuItem.Click += new System.EventHandler(this.退出系统ToolStripMenuItem_Click);
+            this.menu_退出系统.Name = "menu_退出系统";
+            this.menu_退出系统.Size = new System.Drawing.Size(75, 21);
+            this.menu_退出系统.Text = "E退出系统";
+            this.menu_退出系统.Click += new System.EventHandler(this.退出系统ToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(152, 6);
+            // 
+            // 关于开发者ToolStripMenuItem
+            // 
+            this.关于开发者ToolStripMenuItem.Name = "关于开发者ToolStripMenuItem";
+            this.关于开发者ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.关于开发者ToolStripMenuItem.Text = "关于开发者";
+            this.关于开发者ToolStripMenuItem.Click += new System.EventHandler(this.关于开发者ToolStripMenuItem_Click);
             // 
             // Frm_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(698, 459);
+            this.ClientSize = new System.Drawing.Size(699, 461);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -325,36 +348,38 @@
 
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem 日常工作ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 基本信息登记ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 特殊登记ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 特殊挂号ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 点名专家挂号ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 外宾挂号ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 免挂号费挂号ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 免费挂号ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 财务ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 查询ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 报表ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 设置ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu_日常工作;
+        private System.Windows.Forms.ToolStripMenuItem menu_基本信息登记;
+        private System.Windows.Forms.ToolStripMenuItem menu_挂号登记;
+        private System.Windows.Forms.ToolStripMenuItem menu_特殊挂号;
+        private System.Windows.Forms.ToolStripMenuItem menu_点名专家挂号;
+        private System.Windows.Forms.ToolStripMenuItem menu_外宾挂号;
+        private System.Windows.Forms.ToolStripMenuItem menu_免挂号费挂号;
+        private System.Windows.Forms.ToolStripMenuItem menu_免费挂号;
+        private System.Windows.Forms.ToolStripMenuItem menu_财务;
+        private System.Windows.Forms.ToolStripMenuItem menu_查询;
+        private System.Windows.Forms.ToolStripMenuItem menu_报表;
+        private System.Windows.Forms.ToolStripMenuItem menu_设置;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem 医保凭证修改ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 基本信息维护ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 充值卡维护ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 退出系统ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 操作员结账ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 全班操作员结账ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 挂号结账单统计ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 挂号查询ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 组合查询ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 凭证查询ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu_医保凭证修改;
+        private System.Windows.Forms.ToolStripMenuItem menu_基本信息维护;
+        private System.Windows.Forms.ToolStripMenuItem menu_充值卡维护;
+        private System.Windows.Forms.ToolStripMenuItem menu_退出系统;
+        private System.Windows.Forms.ToolStripMenuItem menu_操作员结账;
+        private System.Windows.Forms.ToolStripMenuItem menu_全班操作员结账;
+        private System.Windows.Forms.ToolStripMenuItem menu_挂号结账单统计;
+        private System.Windows.Forms.ToolStripMenuItem menu_挂号查询;
+        private System.Windows.Forms.ToolStripMenuItem menu_组合查询;
+        private System.Windows.Forms.ToolStripMenuItem menu_凭证查询;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem 病人信息查询ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 挂号动态图表ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 挂号报表ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 发票管理ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 科室专家排班ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 挂号联动定义ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 高级专家设置ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menu_病人信息查询;
+        private System.Windows.Forms.ToolStripMenuItem menu_挂号动态图表;
+        private System.Windows.Forms.ToolStripMenuItem menu_挂号外挂报表;
+        private System.Windows.Forms.ToolStripMenuItem menu_发票管理;
+        private System.Windows.Forms.ToolStripMenuItem menu_科室专家排班;
+        private System.Windows.Forms.ToolStripMenuItem menu_挂号联动定义;
+        private System.Windows.Forms.ToolStripMenuItem menu_高级专家定义;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem 关于开发者ToolStripMenuItem;
     }
 }

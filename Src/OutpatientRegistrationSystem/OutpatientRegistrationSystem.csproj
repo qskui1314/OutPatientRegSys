@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_huanhao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_huanhao.Designer.cs">
+      <DependentUpon>Frm_huanhao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_infoReg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,14 +77,22 @@
     <Compile Include="Frm_main.Designer.cs">
       <DependentUpon>Frm_main.cs</DependentUpon>
     </Compile>
-    <Compile Include="guahaodengji.cs">
+    <Compile Include="Frm_guahaodengji.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="guahaodengji.Designer.cs">
-      <DependentUpon>guahaodengji.cs</DependentUpon>
+    <Compile Include="Frm_guahaodengji.designer.cs">
+      <DependentUpon>Frm_guahaodengji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORSBaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ORSBaseDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_huanhao.resx">
+      <DependentUpon>Frm_huanhao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_infoReg.resx">
       <DependentUpon>Frm_infoReg.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,8 +102,8 @@
     <EmbeddedResource Include="Frm_main.resx">
       <DependentUpon>Frm_main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="guahaodengji.resx">
-      <DependentUpon>guahaodengji.cs</DependentUpon>
+    <EmbeddedResource Include="Frm_guahaodengji.resx">
+      <DependentUpon>Frm_guahaodengji.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +115,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
+    <None Include="ORSBaseDataSet.xsc">
+      <DependentUpon>ORSBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ORSBaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ORSBaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ORSBaseDataSet.xss">
+      <DependentUpon>ORSBaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,6 +136,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

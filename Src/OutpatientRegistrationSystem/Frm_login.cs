@@ -58,5 +58,10 @@ namespace OutpatientRegistrationSystem
         {
             Application.Exit();
         }
+
+        private void Frm_login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

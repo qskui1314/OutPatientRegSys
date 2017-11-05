@@ -14,11 +14,18 @@ namespace OutpatientRegistrationSystem
         public Frm_infoReg()
         {
             InitializeComponent();
+            this.ControlBox = false;
         }
 
         private void Frm_infoReg_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.DialogResult = DialogResult.OK;
         }
     }
 }
