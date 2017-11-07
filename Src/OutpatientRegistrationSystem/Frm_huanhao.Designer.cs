@@ -33,6 +33,7 @@
             this.lb_binglihao = new System.Windows.Forms.Label();
             this.tb_binglihao = new System.Windows.Forms.TextBox();
             this.bt_chaxun = new System.Windows.Forms.Button();
+            this.bt_tuichu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_kahao
@@ -76,11 +77,22 @@
             this.bt_chaxun.Text = "查询";
             this.bt_chaxun.UseVisualStyleBackColor = true;
             // 
+            // bt_tuichu
+            // 
+            this.bt_tuichu.Location = new System.Drawing.Point(579, 403);
+            this.bt_tuichu.Name = "bt_tuichu";
+            this.bt_tuichu.Size = new System.Drawing.Size(75, 23);
+            this.bt_tuichu.TabIndex = 5;
+            this.bt_tuichu.Text = "退出";
+            this.bt_tuichu.UseVisualStyleBackColor = true;
+            this.bt_tuichu.Click += new System.EventHandler(this.bt_tuichu_Click);
+            // 
             // Frm_huanhao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 461);
+            this.Controls.Add(this.bt_tuichu);
             this.Controls.Add(this.bt_chaxun);
             this.Controls.Add(this.tb_binglihao);
             this.Controls.Add(this.lb_binglihao);
@@ -89,6 +101,7 @@
             this.Name = "Frm_huanhao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "换号";
+            this.Load += new System.EventHandler(this.Frm_huanhao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -101,5 +114,6 @@
         private System.Windows.Forms.Label lb_binglihao;
         private System.Windows.Forms.TextBox tb_binglihao;
         private System.Windows.Forms.Button bt_chaxun;
+        private System.Windows.Forms.Button bt_tuichu;
     }
 }

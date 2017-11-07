@@ -197,6 +197,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(113, 21);
             this.dateTimePicker1.TabIndex = 15;
+            this.dateTimePicker1.Value = new System.DateTime(1987, 1, 1, 0, 0, 0, 0);
             // 
             // tb_binglihao
             // 
@@ -477,6 +478,7 @@
             this.bt_huanhao.TabIndex = 4;
             this.bt_huanhao.Text = "换号";
             this.bt_huanhao.UseVisualStyleBackColor = true;
+            this.bt_huanhao.Click += new System.EventHandler(this.bt_huanhao_Click);
             // 
             // bt_pingzhengxiugai
             // 

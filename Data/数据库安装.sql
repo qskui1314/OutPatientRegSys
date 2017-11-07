@@ -1,7 +1,7 @@
 /*
 门诊挂号系统数据库
 */
---创建数据库；
+创建数据库；
 USE master;
 IF DB_ID('ORSBase') IS NOT NULL
 	BEGIN
@@ -19,11 +19,11 @@ CREATE DATABASE ORSBase
 		,FILENAME='E:\ORSLogfile.ldf');
 GO
 USE ORSBase;
---创建表；
-----操作员表；
+创建表；
+--操作员表；
 CREATE TABLE tb_operator
     (No 
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,Name
@@ -38,10 +38,10 @@ INSERT tb_operator
     ('3150707035','邱思奎',HASHBYTES('MD5','7035'))
     ,('3150707012','李靖',HASHBYTES('MD5','7012'))
     ,('3150707046','崔灿',HASHBYTES('MD5','7046'));
-----医疗卡表；
+--医疗卡表；
 CREATE TABLE tb_card
     (NO
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,balance
@@ -56,10 +56,10 @@ CREATE TABLE tb_card
         date
     ,coTime
         date);
-----患者表；
+--患者表；
 CREATE TABLE tb_patient
     (No
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,Name
@@ -81,39 +81,39 @@ CREATE TABLE tb_patient
     ,nationality
         varchar(25)
     ,socialNo
-        CHAR(18)
+        VARCHAR(18)
     ,tel
-        CHAR(15)
+        VARCHAR(15)
         NOT NULL
     ,cardNo
-        CHAR(10)
+        VARCHAR(10)
         FOREIGN KEY REFERENCES tb_card(NO)
     ,Address
         varchar(25)
         NOT NULL);
-----科室表；
+--科室表；
 CREATE TABLE tb_dept
     (NO
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,NAME
         varchar(25)
         NOT NULL);
-----医生表；
+--医生表；
 CREATE TABLE tb_doctor
     (No
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,NAME
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
     ,title
         varchar(25)
         NOT NULL
     ,deptNo
-        CHAR(10)
+        VARCHAR(10)
         FOREIGN KEY REFERENCES tb_dept(No)
     ,visitTime
         date
@@ -121,10 +121,10 @@ CREATE TABLE tb_doctor
         int
     ,numLeft
         int);
-----挂号表；
+--挂号表；
 CREATE TABLE tb_register
     (NO
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,regType
@@ -135,14 +135,14 @@ CREATE TABLE tb_register
         NOT NULL
         DEFAULT '0'
     ,patientNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_patient(No)
     ,deptNo
-        CHAR(10)
+        VARCHAR(10)
         FOREIGN KEY REFERENCES tb_dept(No)
     ,docNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_doctor(No)
     ,regFee
@@ -157,21 +157,21 @@ CREATE TABLE tb_register
         date
         NOT NULL
     ,opUser
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_operator(No));
-----发票表；
+--发票表；
 CREATE TABLE tb_receipt
     (NO
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,regNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_register(No)
     ,patientNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_patient(No)
     ,recDate
@@ -182,30 +182,30 @@ CREATE TABLE tb_receipt
         NOT NULL
         DEFAULT '0.00');
 
-----病种表；
+--病种表；
 CREATE TABLE tb_drgs
     (NO
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,NAME
         varchar(25)
         NOT NULL);
-----家床登记表；
+--家床登记表；
 CREATE TABLE tb_bedReg
     (NO
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,drgsNo
-        CHAR(10)
+        VARCHAR(10)
         FOREIGN KEY REFERENCES tb_drgs(No)
     ,deptNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_dept(No)
     ,receiptNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_receipt(No)
     ,beginDate
@@ -214,18 +214,18 @@ CREATE TABLE tb_bedReg
     ,endDate
         date
         NOT NULL);
-----排班表；
+--排班表；
 CREATE TABLE tb_schedual
     (weekday
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         PRIMARY KEY
     ,deptNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         FOREIGN KEY REFERENCES tb_dept(No)
     ,docNo
-        CHAR(10)
+        VARCHAR(10)
         NOT NULL
         UNIQUE
         FOREIGN KEY REFERENCES tb_doctor(No)
@@ -235,9 +235,3 @@ CREATE TABLE tb_schedual
     ,numLeft
         int
         NOT NULL);
-        
-        
-        
-        
-                        
-            

@@ -38,8 +38,6 @@
             this.tb_pingzhenghao = new System.Windows.Forms.TextBox();
             this.lb_pingzheng = new System.Windows.Forms.Label();
             this.gb_BaseInfo = new System.Windows.Forms.GroupBox();
-            this.cb_binglihao = new System.Windows.Forms.CheckBox();
-            this.cb_cika = new System.Windows.Forms.CheckBox();
             this.tb_binglihao = new System.Windows.Forms.TextBox();
             this.lb_binglihao = new System.Windows.Forms.Label();
             this.tb_phone = new System.Windows.Forms.TextBox();
@@ -70,7 +68,7 @@
             // 
             // btn_exit
             // 
-            this.btn_exit.Location = new System.Drawing.Point(636, 340);
+            this.btn_exit.Location = new System.Drawing.Point(589, 373);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(75, 23);
             this.btn_exit.TabIndex = 7;
@@ -80,7 +78,7 @@
             // 
             // btn_ok
             // 
-            this.btn_ok.Location = new System.Drawing.Point(534, 340);
+            this.btn_ok.Location = new System.Drawing.Point(487, 373);
             this.btn_ok.Name = "btn_ok";
             this.btn_ok.Size = new System.Drawing.Size(75, 23);
             this.btn_ok.TabIndex = 6;
@@ -95,9 +93,9 @@
             this.gb_pingzheng.Controls.Add(this.lb_pingzhengkaishi);
             this.gb_pingzheng.Controls.Add(this.tb_pingzhenghao);
             this.gb_pingzheng.Controls.Add(this.lb_pingzheng);
-            this.gb_pingzheng.Location = new System.Drawing.Point(14, 187);
+            this.gb_pingzheng.Location = new System.Drawing.Point(14, 215);
             this.gb_pingzheng.Name = "gb_pingzheng";
-            this.gb_pingzheng.Size = new System.Drawing.Size(729, 121);
+            this.gb_pingzheng.Size = new System.Drawing.Size(673, 121);
             this.gb_pingzheng.TabIndex = 5;
             this.gb_pingzheng.TabStop = false;
             this.gb_pingzheng.Text = "病人凭证信息";
@@ -106,7 +104,7 @@
             // 
             this.tb_pingzhengjieshu.Location = new System.Drawing.Point(430, 80);
             this.tb_pingzhengjieshu.Name = "tb_pingzhengjieshu";
-            this.tb_pingzhengjieshu.Size = new System.Drawing.Size(278, 21);
+            this.tb_pingzhengjieshu.Size = new System.Drawing.Size(233, 21);
             this.tb_pingzhengjieshu.TabIndex = 5;
             // 
             // lb_pingzhengjieshu
@@ -138,7 +136,7 @@
             // 
             this.tb_pingzhenghao.Location = new System.Drawing.Point(70, 40);
             this.tb_pingzhenghao.Name = "tb_pingzhenghao";
-            this.tb_pingzhenghao.Size = new System.Drawing.Size(300, 21);
+            this.tb_pingzhenghao.Size = new System.Drawing.Size(244, 21);
             this.tb_pingzhenghao.TabIndex = 1;
             // 
             // lb_pingzheng
@@ -152,8 +150,6 @@
             // 
             // gb_BaseInfo
             // 
-            this.gb_BaseInfo.Controls.Add(this.cb_binglihao);
-            this.gb_BaseInfo.Controls.Add(this.cb_cika);
             this.gb_BaseInfo.Controls.Add(this.tb_binglihao);
             this.gb_BaseInfo.Controls.Add(this.lb_binglihao);
             this.gb_BaseInfo.Controls.Add(this.tb_phone);
@@ -178,44 +174,24 @@
             this.gb_BaseInfo.Controls.Add(this.lb_xingbie);
             this.gb_BaseInfo.Controls.Add(this.lb_feibie);
             this.gb_BaseInfo.Controls.Add(this.lb_kahao);
-            this.gb_BaseInfo.Location = new System.Drawing.Point(11, 20);
+            this.gb_BaseInfo.Location = new System.Drawing.Point(11, 29);
             this.gb_BaseInfo.Name = "gb_BaseInfo";
-            this.gb_BaseInfo.Size = new System.Drawing.Size(733, 156);
+            this.gb_BaseInfo.Size = new System.Drawing.Size(676, 156);
             this.gb_BaseInfo.TabIndex = 4;
             this.gb_BaseInfo.TabStop = false;
             this.gb_BaseInfo.Text = "病人基本信息";
             // 
-            // cb_binglihao
-            // 
-            this.cb_binglihao.AutoSize = true;
-            this.cb_binglihao.Location = new System.Drawing.Point(299, 26);
-            this.cb_binglihao.Name = "cb_binglihao";
-            this.cb_binglihao.Size = new System.Drawing.Size(60, 16);
-            this.cb_binglihao.TabIndex = 25;
-            this.cb_binglihao.Text = "病历号";
-            this.cb_binglihao.UseVisualStyleBackColor = true;
-            // 
-            // cb_cika
-            // 
-            this.cb_cika.AutoSize = true;
-            this.cb_cika.Location = new System.Drawing.Point(225, 27);
-            this.cb_cika.Name = "cb_cika";
-            this.cb_cika.Size = new System.Drawing.Size(48, 16);
-            this.cb_cika.TabIndex = 24;
-            this.cb_cika.Text = "磁卡";
-            this.cb_cika.UseVisualStyleBackColor = true;
-            // 
             // tb_binglihao
             // 
-            this.tb_binglihao.Location = new System.Drawing.Point(463, 24);
+            this.tb_binglihao.Location = new System.Drawing.Point(465, 21);
             this.tb_binglihao.Name = "tb_binglihao";
-            this.tb_binglihao.Size = new System.Drawing.Size(248, 21);
+            this.tb_binglihao.Size = new System.Drawing.Size(201, 21);
             this.tb_binglihao.TabIndex = 23;
             // 
             // lb_binglihao
             // 
             this.lb_binglihao.AutoSize = true;
-            this.lb_binglihao.Location = new System.Drawing.Point(405, 30);
+            this.lb_binglihao.Location = new System.Drawing.Point(409, 30);
             this.lb_binglihao.Name = "lb_binglihao";
             this.lb_binglihao.Size = new System.Drawing.Size(41, 12);
             this.lb_binglihao.TabIndex = 22;
@@ -223,15 +199,15 @@
             // 
             // tb_phone
             // 
-            this.tb_phone.Location = new System.Drawing.Point(463, 80);
+            this.tb_phone.Location = new System.Drawing.Point(465, 80);
             this.tb_phone.Name = "tb_phone";
-            this.tb_phone.Size = new System.Drawing.Size(248, 21);
+            this.tb_phone.Size = new System.Drawing.Size(201, 21);
             this.tb_phone.TabIndex = 21;
             // 
             // lb_phone
             // 
             this.lb_phone.AutoSize = true;
-            this.lb_phone.Location = new System.Drawing.Point(391, 83);
+            this.lb_phone.Location = new System.Drawing.Point(395, 83);
             this.lb_phone.Name = "lb_phone";
             this.lb_phone.Size = new System.Drawing.Size(53, 12);
             this.lb_phone.TabIndex = 20;
@@ -239,15 +215,15 @@
             // 
             // tb_age
             // 
-            this.tb_age.Location = new System.Drawing.Point(258, 81);
+            this.tb_age.Location = new System.Drawing.Point(242, 49);
             this.tb_age.Name = "tb_age";
-            this.tb_age.Size = new System.Drawing.Size(100, 21);
+            this.tb_age.Size = new System.Drawing.Size(142, 21);
             this.tb_age.TabIndex = 19;
             // 
             // lb_age
             // 
             this.lb_age.AutoSize = true;
-            this.lb_age.Location = new System.Drawing.Point(223, 84);
+            this.lb_age.Location = new System.Drawing.Point(207, 54);
             this.lb_age.Name = "lb_age";
             this.lb_age.Size = new System.Drawing.Size(29, 12);
             this.lb_age.TabIndex = 18;
@@ -255,15 +231,15 @@
             // 
             // tb_IDCard
             // 
-            this.tb_IDCard.Location = new System.Drawing.Point(463, 52);
+            this.tb_IDCard.Location = new System.Drawing.Point(465, 52);
             this.tb_IDCard.Name = "tb_IDCard";
-            this.tb_IDCard.Size = new System.Drawing.Size(249, 21);
+            this.tb_IDCard.Size = new System.Drawing.Size(202, 21);
             this.tb_IDCard.TabIndex = 17;
             // 
             // lb_IDCard
             // 
             this.lb_IDCard.AutoSize = true;
-            this.lb_IDCard.Location = new System.Drawing.Point(405, 57);
+            this.lb_IDCard.Location = new System.Drawing.Point(409, 57);
             this.lb_IDCard.Name = "lb_IDCard";
             this.lb_IDCard.Size = new System.Drawing.Size(41, 12);
             this.lb_IDCard.TabIndex = 16;
@@ -271,15 +247,15 @@
             // 
             // tb_name
             // 
-            this.tb_name.Location = new System.Drawing.Point(258, 52);
+            this.tb_name.Location = new System.Drawing.Point(242, 24);
             this.tb_name.Name = "tb_name";
-            this.tb_name.Size = new System.Drawing.Size(100, 21);
+            this.tb_name.Size = new System.Drawing.Size(142, 21);
             this.tb_name.TabIndex = 15;
             // 
             // lb_name
             // 
             this.lb_name.AutoSize = true;
-            this.lb_name.Location = new System.Drawing.Point(223, 55);
+            this.lb_name.Location = new System.Drawing.Point(207, 30);
             this.lb_name.Name = "lb_name";
             this.lb_name.Size = new System.Drawing.Size(29, 12);
             this.lb_name.TabIndex = 14;
@@ -287,15 +263,15 @@
             // 
             // tb_address
             // 
-            this.tb_address.Location = new System.Drawing.Point(463, 107);
+            this.tb_address.Location = new System.Drawing.Point(465, 107);
             this.tb_address.Name = "tb_address";
-            this.tb_address.Size = new System.Drawing.Size(249, 21);
+            this.tb_address.Size = new System.Drawing.Size(202, 21);
             this.tb_address.TabIndex = 13;
             // 
             // lb_address
             // 
             this.lb_address.AutoSize = true;
-            this.lb_address.Location = new System.Drawing.Point(415, 112);
+            this.lb_address.Location = new System.Drawing.Point(419, 112);
             this.lb_address.Name = "lb_address";
             this.lb_address.Size = new System.Drawing.Size(29, 12);
             this.lb_address.TabIndex = 12;
@@ -304,7 +280,7 @@
             // lb_xian
             // 
             this.lb_xian.AutoSize = true;
-            this.lb_xian.Location = new System.Drawing.Point(323, 112);
+            this.lb_xian.Location = new System.Drawing.Point(323, 110);
             this.lb_xian.Name = "lb_xian";
             this.lb_xian.Size = new System.Drawing.Size(35, 12);
             this.lb_xian.TabIndex = 11;
@@ -312,15 +288,15 @@
             // 
             // tb_xian
             // 
-            this.tb_xian.Location = new System.Drawing.Point(205, 107);
+            this.tb_xian.Location = new System.Drawing.Point(209, 108);
             this.tb_xian.Name = "tb_xian";
-            this.tb_xian.Size = new System.Drawing.Size(112, 21);
+            this.tb_xian.Size = new System.Drawing.Size(102, 21);
             this.tb_xian.TabIndex = 10;
             // 
             // lb_sheng
             // 
             this.lb_sheng.AutoSize = true;
-            this.lb_sheng.Location = new System.Drawing.Point(164, 111);
+            this.lb_sheng.Location = new System.Drawing.Point(168, 111);
             this.lb_sheng.Name = "lb_sheng";
             this.lb_sheng.Size = new System.Drawing.Size(35, 12);
             this.lb_sheng.TabIndex = 9;
@@ -359,14 +335,14 @@
             // 
             this.tb_feibie.Location = new System.Drawing.Point(58, 52);
             this.tb_feibie.Name = "tb_feibie";
-            this.tb_feibie.Size = new System.Drawing.Size(145, 21);
+            this.tb_feibie.Size = new System.Drawing.Size(135, 21);
             this.tb_feibie.TabIndex = 5;
             // 
             // tb_kahao
             // 
             this.tb_kahao.Location = new System.Drawing.Point(58, 26);
             this.tb_kahao.Name = "tb_kahao";
-            this.tb_kahao.Size = new System.Drawing.Size(145, 21);
+            this.tb_kahao.Size = new System.Drawing.Size(135, 21);
             this.tb_kahao.TabIndex = 4;
             // 
             // lb_birthplace
@@ -409,7 +385,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 382);
+            this.ClientSize = new System.Drawing.Size(699, 461);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_ok);
             this.Controls.Add(this.gb_pingzheng);
@@ -438,8 +414,6 @@
         private System.Windows.Forms.TextBox tb_pingzhenghao;
         private System.Windows.Forms.Label lb_pingzheng;
         private System.Windows.Forms.GroupBox gb_BaseInfo;
-        private System.Windows.Forms.CheckBox cb_binglihao;
-        private System.Windows.Forms.CheckBox cb_cika;
         private System.Windows.Forms.TextBox tb_binglihao;
         private System.Windows.Forms.Label lb_binglihao;
         private System.Windows.Forms.TextBox tb_phone;

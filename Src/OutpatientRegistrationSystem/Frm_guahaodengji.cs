@@ -37,5 +37,15 @@ namespace OutpatientRegistrationSystem
             this.Close();
             this.DialogResult = DialogResult.OK;
         }
+
+        private void bt_huanhao_Click(object sender, EventArgs e)
+        {
+            Frm_huanhao frm_huanhao = new Frm_huanhao();
+            this.Hide();
+            if (frm_huanhao.ShowDialog() == DialogResult.OK)
+            {
+                this.Show();
+            }
+        }
     }
 }
