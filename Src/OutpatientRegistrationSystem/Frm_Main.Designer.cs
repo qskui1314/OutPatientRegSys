@@ -60,9 +60,9 @@
             this.menu_科室专家排班 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_挂号联动定义 = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_高级专家定义 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menu_退出系统 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.关于开发者ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menu_退出系统 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -166,6 +166,7 @@
             this.menu_医保凭证修改.Name = "menu_医保凭证修改";
             this.menu_医保凭证修改.Size = new System.Drawing.Size(156, 22);
             this.menu_医保凭证修改.Text = "A医保凭证修改";
+            this.menu_医保凭证修改.Click += new System.EventHandler(this.menu_医保凭证修改_Click);
             // 
             // menu_基本信息维护
             // 
@@ -306,13 +307,6 @@
             this.menu_高级专家定义.Size = new System.Drawing.Size(155, 22);
             this.menu_高级专家定义.Text = "4高级专家设置";
             // 
-            // menu_退出系统
-            // 
-            this.menu_退出系统.Name = "menu_退出系统";
-            this.menu_退出系统.Size = new System.Drawing.Size(75, 21);
-            this.menu_退出系统.Text = "E退出系统";
-            this.menu_退出系统.Click += new System.EventHandler(this.退出系统ToolStripMenuItem_Click);
-            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -324,6 +318,13 @@
             this.关于开发者ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.关于开发者ToolStripMenuItem.Text = "关于开发者";
             this.关于开发者ToolStripMenuItem.Click += new System.EventHandler(this.关于开发者ToolStripMenuItem_Click);
+            // 
+            // menu_退出系统
+            // 
+            this.menu_退出系统.Name = "menu_退出系统";
+            this.menu_退出系统.Size = new System.Drawing.Size(75, 21);
+            this.menu_退出系统.Text = "E退出系统";
+            this.menu_退出系统.Click += new System.EventHandler(this.退出系统ToolStripMenuItem_Click);
             // 
             // Frm_main
             // 

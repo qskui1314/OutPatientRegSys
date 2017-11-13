@@ -9,26 +9,21 @@ using System.Windows.Forms;
 
 namespace OutpatientRegistrationSystem
 {
-    public partial class Frm_huanhao : Form
+    public partial class Frm_update_pingzheng : Form
     {
-        public Frm_huanhao()
+        public Frm_update_pingzheng()
         {
             InitializeComponent();
             this.ControlBox = false;
         }
 
-        private void Frm_huanhao_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bt_tuichu_Click(object sender, EventArgs e)
+        private void btn_退出_Click(object sender, EventArgs e)
         {
             this.Close();
             this.DialogResult = DialogResult.OK;
         }
 
-        private void lb_kahao_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

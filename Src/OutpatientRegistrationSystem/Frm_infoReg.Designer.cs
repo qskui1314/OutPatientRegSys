@@ -31,6 +31,8 @@
             this.btn_exit = new System.Windows.Forms.Button();
             this.btn_ok = new System.Windows.Forms.Button();
             this.gb_pingzheng = new System.Windows.Forms.GroupBox();
+            this.txb_金额 = new System.Windows.Forms.TextBox();
+            this.lbl_金额 = new System.Windows.Forms.Label();
             this.tb_pingzhengjieshu = new System.Windows.Forms.TextBox();
             this.lb_pingzhengjieshu = new System.Windows.Forms.Label();
             this.tb_pingzhengkaishi = new System.Windows.Forms.TextBox();
@@ -62,13 +64,15 @@
             this.lb_xingbie = new System.Windows.Forms.Label();
             this.lb_feibie = new System.Windows.Forms.Label();
             this.lb_kahao = new System.Windows.Forms.Label();
+            this.lbl_费用类别 = new System.Windows.Forms.Label();
+            this.tbx_费用类别 = new System.Windows.Forms.TextBox();
             this.gb_pingzheng.SuspendLayout();
             this.gb_BaseInfo.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_exit
             // 
-            this.btn_exit.Location = new System.Drawing.Point(589, 373);
+            this.btn_exit.Location = new System.Drawing.Point(592, 396);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(75, 23);
             this.btn_exit.TabIndex = 7;
@@ -78,7 +82,7 @@
             // 
             // btn_ok
             // 
-            this.btn_ok.Location = new System.Drawing.Point(487, 373);
+            this.btn_ok.Location = new System.Drawing.Point(486, 396);
             this.btn_ok.Name = "btn_ok";
             this.btn_ok.Size = new System.Drawing.Size(75, 23);
             this.btn_ok.TabIndex = 6;
@@ -87,6 +91,10 @@
             // 
             // gb_pingzheng
             // 
+            this.gb_pingzheng.Controls.Add(this.tbx_费用类别);
+            this.gb_pingzheng.Controls.Add(this.lbl_费用类别);
+            this.gb_pingzheng.Controls.Add(this.txb_金额);
+            this.gb_pingzheng.Controls.Add(this.lbl_金额);
             this.gb_pingzheng.Controls.Add(this.tb_pingzhengjieshu);
             this.gb_pingzheng.Controls.Add(this.lb_pingzhengjieshu);
             this.gb_pingzheng.Controls.Add(this.tb_pingzhengkaishi);
@@ -95,10 +103,26 @@
             this.gb_pingzheng.Controls.Add(this.lb_pingzheng);
             this.gb_pingzheng.Location = new System.Drawing.Point(14, 215);
             this.gb_pingzheng.Name = "gb_pingzheng";
-            this.gb_pingzheng.Size = new System.Drawing.Size(673, 121);
+            this.gb_pingzheng.Size = new System.Drawing.Size(673, 163);
             this.gb_pingzheng.TabIndex = 5;
             this.gb_pingzheng.TabStop = false;
             this.gb_pingzheng.Text = "病人凭证信息";
+            // 
+            // txb_金额
+            // 
+            this.txb_金额.Location = new System.Drawing.Point(430, 40);
+            this.txb_金额.Name = "txb_金额";
+            this.txb_金额.Size = new System.Drawing.Size(233, 21);
+            this.txb_金额.TabIndex = 7;
+            // 
+            // lbl_金额
+            // 
+            this.lbl_金额.AutoSize = true;
+            this.lbl_金额.Location = new System.Drawing.Point(344, 43);
+            this.lbl_金额.Name = "lbl_金额";
+            this.lbl_金额.Size = new System.Drawing.Size(53, 12);
+            this.lbl_金额.TabIndex = 6;
+            this.lbl_金额.Text = "账户金额";
             // 
             // tb_pingzhengjieshu
             // 
@@ -381,6 +405,22 @@
             this.lb_kahao.TabIndex = 0;
             this.lb_kahao.Text = "卡号";
             // 
+            // lbl_费用类别
+            // 
+            this.lbl_费用类别.AutoSize = true;
+            this.lbl_费用类别.Location = new System.Drawing.Point(9, 134);
+            this.lbl_费用类别.Name = "lbl_费用类别";
+            this.lbl_费用类别.Size = new System.Drawing.Size(53, 12);
+            this.lbl_费用类别.TabIndex = 8;
+            this.lbl_费用类别.Text = "费用类别";
+            // 
+            // tbx_费用类别
+            // 
+            this.tbx_费用类别.Location = new System.Drawing.Point(70, 131);
+            this.tbx_费用类别.Name = "tbx_费用类别";
+            this.tbx_费用类别.Size = new System.Drawing.Size(244, 21);
+            this.tbx_费用类别.TabIndex = 9;
+            // 
             // Frm_infoReg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -438,5 +478,9 @@
         private System.Windows.Forms.Label lb_xingbie;
         private System.Windows.Forms.Label lb_feibie;
         private System.Windows.Forms.Label lb_kahao;
+        private System.Windows.Forms.TextBox txb_金额;
+        private System.Windows.Forms.Label lbl_金额;
+        private System.Windows.Forms.TextBox tbx_费用类别;
+        private System.Windows.Forms.Label lbl_费用类别;
     }
 }

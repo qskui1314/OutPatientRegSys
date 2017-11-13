@@ -63,12 +63,12 @@
             this.lb_pingzhenghaoshuju = new System.Windows.Forms.Label();
             this.lb_pingzhenghao = new System.Windows.Forms.Label();
             this.gn_yigua = new System.Windows.Forms.GroupBox();
-            this.bt_delete = new System.Windows.Forms.Button();
+            this.btn_delete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.bt_guahao = new System.Windows.Forms.Button();
-            this.bt_huanhao = new System.Windows.Forms.Button();
-            this.bt_pingzhengxiugai = new System.Windows.Forms.Button();
-            this.bt_tuichu = new System.Windows.Forms.Button();
+            this.btn_guahao = new System.Windows.Forms.Button();
+            this.btn_huanhao = new System.Windows.Forms.Button();
+            this.btn_pingzhengxiugai = new System.Windows.Forms.Button();
+            this.btn_tuichu = new System.Windows.Forms.Button();
             this.gb_patientInfo.SuspendLayout();
             this.gb_pingzheng.SuspendLayout();
             this.gn_yigua.SuspendLayout();
@@ -432,7 +432,7 @@
             // 
             // gn_yigua
             // 
-            this.gn_yigua.Controls.Add(this.bt_delete);
+            this.gn_yigua.Controls.Add(this.btn_delete);
             this.gn_yigua.Controls.Add(this.dataGridView1);
             this.gn_yigua.Location = new System.Drawing.Point(215, 126);
             this.gn_yigua.Name = "gn_yigua";
@@ -441,14 +441,14 @@
             this.gn_yigua.TabStop = false;
             this.gn_yigua.Text = "已挂科室/专家信息";
             // 
-            // bt_delete
+            // btn_delete
             // 
-            this.bt_delete.Location = new System.Drawing.Point(6, 231);
-            this.bt_delete.Name = "bt_delete";
-            this.bt_delete.Size = new System.Drawing.Size(458, 23);
-            this.bt_delete.TabIndex = 1;
-            this.bt_delete.Text = "删除当前科室/专家";
-            this.bt_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Location = new System.Drawing.Point(6, 231);
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.Size = new System.Drawing.Size(458, 23);
+            this.btn_delete.TabIndex = 1;
+            this.btn_delete.Text = "删除当前科室/专家";
+            this.btn_delete.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -461,53 +461,54 @@
             this.dataGridView1.Size = new System.Drawing.Size(468, 201);
             this.dataGridView1.TabIndex = 0;
             // 
-            // bt_guahao
+            // btn_guahao
             // 
-            this.bt_guahao.Location = new System.Drawing.Point(252, 394);
-            this.bt_guahao.Name = "bt_guahao";
-            this.bt_guahao.Size = new System.Drawing.Size(75, 23);
-            this.bt_guahao.TabIndex = 3;
-            this.bt_guahao.Text = "挂号";
-            this.bt_guahao.UseVisualStyleBackColor = true;
+            this.btn_guahao.Location = new System.Drawing.Point(252, 394);
+            this.btn_guahao.Name = "btn_guahao";
+            this.btn_guahao.Size = new System.Drawing.Size(75, 23);
+            this.btn_guahao.TabIndex = 3;
+            this.btn_guahao.Text = "挂号";
+            this.btn_guahao.UseVisualStyleBackColor = true;
             // 
-            // bt_huanhao
+            // btn_huanhao
             // 
-            this.bt_huanhao.Location = new System.Drawing.Point(368, 394);
-            this.bt_huanhao.Name = "bt_huanhao";
-            this.bt_huanhao.Size = new System.Drawing.Size(75, 23);
-            this.bt_huanhao.TabIndex = 4;
-            this.bt_huanhao.Text = "换号";
-            this.bt_huanhao.UseVisualStyleBackColor = true;
-            this.bt_huanhao.Click += new System.EventHandler(this.bt_huanhao_Click);
+            this.btn_huanhao.Location = new System.Drawing.Point(368, 394);
+            this.btn_huanhao.Name = "btn_huanhao";
+            this.btn_huanhao.Size = new System.Drawing.Size(75, 23);
+            this.btn_huanhao.TabIndex = 4;
+            this.btn_huanhao.Text = "换号";
+            this.btn_huanhao.UseVisualStyleBackColor = true;
+            this.btn_huanhao.Click += new System.EventHandler(this.bt_huanhao_Click);
             // 
-            // bt_pingzhengxiugai
+            // btn_pingzhengxiugai
             // 
-            this.bt_pingzhengxiugai.Location = new System.Drawing.Point(482, 394);
-            this.bt_pingzhengxiugai.Name = "bt_pingzhengxiugai";
-            this.bt_pingzhengxiugai.Size = new System.Drawing.Size(75, 23);
-            this.bt_pingzhengxiugai.TabIndex = 6;
-            this.bt_pingzhengxiugai.Text = "凭证修改";
-            this.bt_pingzhengxiugai.UseVisualStyleBackColor = true;
+            this.btn_pingzhengxiugai.Location = new System.Drawing.Point(482, 394);
+            this.btn_pingzhengxiugai.Name = "btn_pingzhengxiugai";
+            this.btn_pingzhengxiugai.Size = new System.Drawing.Size(75, 23);
+            this.btn_pingzhengxiugai.TabIndex = 6;
+            this.btn_pingzhengxiugai.Text = "凭证修改";
+            this.btn_pingzhengxiugai.UseVisualStyleBackColor = true;
+            this.btn_pingzhengxiugai.Click += new System.EventHandler(this.btn_pingzhengxiugai_Click);
             // 
-            // bt_tuichu
+            // btn_tuichu
             // 
-            this.bt_tuichu.Location = new System.Drawing.Point(604, 394);
-            this.bt_tuichu.Name = "bt_tuichu";
-            this.bt_tuichu.Size = new System.Drawing.Size(75, 23);
-            this.bt_tuichu.TabIndex = 7;
-            this.bt_tuichu.Text = "退出";
-            this.bt_tuichu.UseVisualStyleBackColor = true;
-            this.bt_tuichu.Click += new System.EventHandler(this.bt_tuichu_Click);
+            this.btn_tuichu.Location = new System.Drawing.Point(604, 394);
+            this.btn_tuichu.Name = "btn_tuichu";
+            this.btn_tuichu.Size = new System.Drawing.Size(75, 23);
+            this.btn_tuichu.TabIndex = 7;
+            this.btn_tuichu.Text = "退出";
+            this.btn_tuichu.UseVisualStyleBackColor = true;
+            this.btn_tuichu.Click += new System.EventHandler(this.btn_tuichu_Click);
             // 
             // Frm_guahaodengji
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 461);
-            this.Controls.Add(this.bt_tuichu);
-            this.Controls.Add(this.bt_pingzhengxiugai);
-            this.Controls.Add(this.bt_huanhao);
-            this.Controls.Add(this.bt_guahao);
+            this.Controls.Add(this.btn_tuichu);
+            this.Controls.Add(this.btn_pingzhengxiugai);
+            this.Controls.Add(this.btn_huanhao);
+            this.Controls.Add(this.btn_guahao);
             this.Controls.Add(this.gn_yigua);
             this.Controls.Add(this.gb_pingzheng);
             this.Controls.Add(this.gb_patientInfo);
@@ -551,12 +552,12 @@
         private System.Windows.Forms.Label lb_chufuzhen;
         private System.Windows.Forms.GroupBox gb_pingzheng;
         private System.Windows.Forms.GroupBox gn_yigua;
-        private System.Windows.Forms.Button bt_delete;
+        private System.Windows.Forms.Button btn_delete;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button bt_guahao;
-        private System.Windows.Forms.Button bt_huanhao;
-        private System.Windows.Forms.Button bt_pingzhengxiugai;
-        private System.Windows.Forms.Button bt_tuichu;
+        private System.Windows.Forms.Button btn_guahao;
+        private System.Windows.Forms.Button btn_huanhao;
+        private System.Windows.Forms.Button btn_pingzhengxiugai;
+        private System.Windows.Forms.Button btn_tuichu;
         private System.Windows.Forms.Label lb_leijijineshuju;
         private System.Windows.Forms.Label lb_leijijine;
         private System.Windows.Forms.Label lb_jineshuju;

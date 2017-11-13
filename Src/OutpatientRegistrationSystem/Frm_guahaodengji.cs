@@ -32,7 +32,7 @@ namespace OutpatientRegistrationSystem
 
         }
 
-        private void bt_tuichu_Click(object sender, EventArgs e)
+        private void btn_tuichu_Click(object sender, EventArgs e)
         {
             this.Close();
             this.DialogResult = DialogResult.OK;
@@ -43,6 +43,16 @@ namespace OutpatientRegistrationSystem
             Frm_huanhao frm_huanhao = new Frm_huanhao();
             this.Hide();
             if (frm_huanhao.ShowDialog() == DialogResult.OK)
+            {
+                this.Show();
+            }
+        }
+
+        private void btn_pingzhengxiugai_Click(object sender, EventArgs e)
+        {
+            Frm_update_pingzheng frm_Update_Pingzheng=new Frm_update_pingzheng();
+            this.Hide();
+            if (frm_Update_Pingzheng.ShowDialog() == DialogResult.OK)
             {
                 this.Show();
             }

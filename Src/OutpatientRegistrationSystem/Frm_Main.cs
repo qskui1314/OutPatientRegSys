@@ -104,5 +104,15 @@ namespace OutpatientRegistrationSystem
         {
             System.Diagnostics.Process.Start("iexplore.exe", "https://github.com/qskui1314");
         }
+
+        private void menu_医保凭证修改_Click(object sender, EventArgs e)
+        {
+            Frm_update_pingzheng frm_Update_Pingzheng = new Frm_update_pingzheng();
+            this.Hide();
+            if (frm_Update_Pingzheng.ShowDialog() == DialogResult.OK)
+            {
+                this.Show();
+            }
+        }
     }
 }

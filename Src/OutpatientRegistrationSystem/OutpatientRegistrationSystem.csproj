@@ -116,6 +116,12 @@
     <Compile Include="Frm_guahaodengji.designer.cs">
       <DependentUpon>Frm_guahaodengji.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_update_pingzheng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_update_pingzheng.Designer.cs">
+      <DependentUpon>Frm_update_pingzheng.cs</DependentUpon>
+    </Compile>
     <Compile Include="ORSBaseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_guahaodengji.resx">
       <DependentUpon>Frm_guahaodengji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_update_pingzheng.resx">
+      <DependentUpon>Frm_update_pingzheng.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
