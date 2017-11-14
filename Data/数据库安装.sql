@@ -1,7 +1,7 @@
-/*
-门诊挂号系统数据库
-*/
-创建数据库；
+--/*
+--门诊挂号系统数据库
+--*/
+----创建数据库；
 USE master;
 IF DB_ID('ORSBase') IS NOT NULL
 	BEGIN
@@ -19,8 +19,8 @@ CREATE DATABASE ORSBase
 		,FILENAME='E:\ORSLogfile.ldf');
 GO
 USE ORSBase;
-创建表；
---操作员表；
+--创建表；
+----操作员表；
 CREATE TABLE tb_operator
     (No 
         VARCHAR(10)
@@ -32,12 +32,6 @@ CREATE TABLE tb_operator
     ,password
         VARBINARY(128)
         NOT NULL);
-INSERT tb_operator
-    (No,Name,Password)
-    VALUES
-    ('3150707035','邱思奎',HASHBYTES('MD5','7035'))
-    ,('3150707012','李靖',HASHBYTES('MD5','7012'))
-    ,('3150707046','崔灿',HASHBYTES('MD5','7046'));
 --医疗卡表；
 CREATE TABLE tb_card
     (NO
@@ -53,9 +47,9 @@ CREATE TABLE tb_card
     ,coMoney
         money
     ,enTime
-        date
+        datetime
     ,coTime
-        date);
+        datetime);
 --患者表；
 CREATE TABLE tb_patient
     (No
@@ -72,7 +66,7 @@ CREATE TABLE tb_patient
         bit
         NOT NULL
     ,birthday
-        date
+        datetime
         NOT NULL
     ,birthProv
         varchar(25)
@@ -116,7 +110,7 @@ CREATE TABLE tb_doctor
         VARCHAR(10)
         FOREIGN KEY REFERENCES tb_dept(No)
     ,visitTime
-        date
+        datetime
     ,limitNum
         int
     ,numLeft
@@ -153,8 +147,8 @@ CREATE TABLE tb_register
         money
         NOT NULL
         DEFAULT '0.00'
-    ,regDate
-        date
+    ,regdate
+        datetime
         NOT NULL
     ,opUser
         VARCHAR(10)
@@ -175,7 +169,7 @@ CREATE TABLE tb_receipt
         NOT NULL
         FOREIGN KEY REFERENCES tb_patient(No)
     ,recDate
-        date
+        datetime
         NOT NULL
     ,charge
         money
@@ -209,10 +203,10 @@ CREATE TABLE tb_bedReg
         NOT NULL
         FOREIGN KEY REFERENCES tb_receipt(No)
     ,beginDate
-        date
+        datetime
         NOT NULL
     ,endDate
-        date
+        datetime
         NOT NULL);
 --排班表；
 CREATE TABLE tb_schedual
@@ -235,3 +229,16 @@ CREATE TABLE tb_schedual
     ,numLeft
         int
         NOT NULL);
+
+INSERT tb_operator
+    (No,Name,Password)
+    VALUES
+    ('3150707035','邱思奎',HASHBYTES('MD5','7035'));
+INSERT tb_operator
+    (No,Name,Password)
+    VALUES
+    ('3150707012','李靖',HASHBYTES('MD5','7012'));
+INSERT tb_operator
+    (No,Name,Password)
+    VALUES
+    ('3150707046','崔灿',HASHBYTES('MD5','7046'));

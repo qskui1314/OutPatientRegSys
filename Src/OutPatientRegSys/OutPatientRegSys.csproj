@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDB3EE8F-4B67-4E85-8AF0-7EE27DA23303}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OutPatientRegSys</RootNamespace>
+    <AssemblyName>OutPatientRegSys</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Frm_guahaodengji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_guahaodengji.designer.cs">
+      <DependentUpon>Frm_guahaodengji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_huanhao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_huanhao.Designer.cs">
+      <DependentUpon>Frm_huanhao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_infoReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_infoReg.Designer.cs">
+      <DependentUpon>Frm_infoReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_login.Designer.cs">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.cs">
+      <DependentUpon>Frm_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_update_pingzheng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_update_pingzheng.Designer.cs">
+      <DependentUpon>Frm_update_pingzheng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ORSBaseDataSet.Designer.cs" />
+    <Compile Include="ORSBaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ORSBaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Resources.Designer.cs" />
+    <Compile Include="Settings.Designer.cs" />
+    <EmbeddedResource Include="Frm_guahaodengji.resx">
+      <DependentUpon>Frm_guahaodengji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_huanhao.resx">
+      <DependentUpon>Frm_huanhao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_infoReg.resx">
+      <DependentUpon>Frm_infoReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_login.resx">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_update_pingzheng.resx">
+      <DependentUpon>Frm_update_pingzheng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx" />
+    <None Include="app.config" />
+    <None Include="ORSBaseDataSet.xsc">
+      <DependentUpon>ORSBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ORSBaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ORSBaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ORSBaseDataSet.xss">
+      <DependentUpon>ORSBaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OutpatientRegistrationSystem_TemporaryKey.pfx" />
+    <None Include="README.md" />
+    <None Include="Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="his.ICO" />
+    <Content Include="icon\his.ICO" />
+    <Content Include="icon\上记录.bmp" />
+    <Content Include="icon\下记录.bmp" />
+    <Content Include="icon\保存.bmp" />
+    <Content Include="icon\修改.bmp" />
+    <Content Include="icon\关闭.bmp" />
+    <Content Include="icon\删除.bmp" />
+    <Content Include="icon\取消.bmp" />
+    <Content Include="icon\尾记录.bmp" />
+    <Content Include="icon\打印.BMP" />
+    <Content Include="icon\搜索.bmp" />
+    <Content Include="icon\新增.bmp" />
+    <Content Include="icon\查询选择.bmp" />
+    <Content Include="icon\计算.bmp" />
+    <Content Include="icon\首记录.bmp" />
+    <Content Include="img\上记录.bmp" />
+    <Content Include="img\下记录.bmp" />
+    <Content Include="img\保存.bmp" />
+    <Content Include="img\修改.bmp" />
+    <Content Include="img\关闭.bmp" />
+    <Content Include="img\删除.bmp" />
+    <Content Include="img\取消.bmp" />
+    <Content Include="img\尾记录.bmp" />
+    <Content Include="img\打印.BMP" />
+    <Content Include="img\搜索.bmp" />
+    <Content Include="img\新增.bmp" />
+    <Content Include="img\查询选择.bmp" />
+    <Content Include="img\计算.bmp" />
+    <Content Include="img\首记录.bmp" />
+    <Content Include="OutpatientRegistrationSystem.csproj" />
+    <Content Include="OutpatientRegistrationSystem.csproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
